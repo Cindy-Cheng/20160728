@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/Init.css">
+	<style type="text/css">
+		.fl{
+			
+			float: left;
+			
+		}
+		.fr{
+			
+			float: right;
+		}
+		.cl:after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+		.wrapper{
+			width: 400px;
+			border: 2px solid #000000;
+			margin: 100px auto;
+		}
+		li{
+			float: left;
+		}
+		.f1{
+			width: 296px;
+			height: 296px;
+			background: #ff00ff;
+			border: 2px solid #ffffff;
+		}
+		.f2,.f4,.f6,.f8{
+			width: 100px;
+			height: 100px;
+			background: #77cc11;
+		}
+		.f3,.f5,.f7{
+			width: 100px;
+			height: 100px;
+			background: #ffff00
+		}
+		.f5,.f6,.f7,.f8{
+			float: right;
+		}
+	</style>
+</head>
+<body>
+	<ul class="wrapper cl">
+		<li class="f1">第1块</li>
+		<li class="f2">第2块</li>
+		<li class="f3">第3块</li>
+		<li class="f4">第4块</li>
+		<li class="f5">第5块</li>
+		<li class="f6">第6块</li>
+		<li class="f7">第7块</li>
+		<li class="f8">第8块</li>
+	</ul>
+</body>
+</html>
